@@ -361,7 +361,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Sources\Imagenes\LogoSize_Pinterest_ByTailorBrands.zip" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -378,9 +377,6 @@
     <Content Include="Sources\Imagenes\firewallcheck.ico" />
     <Content Include="Sources\Imagenes\firewallcheck2.ico" />
     <Content Include="Sources\Imagenes\labeled_purple_2_folder_18806.ico" />
-    <Content Include="Sources\Imagenes\logo_size.jpg" />
-    <Content Include="Sources\Imagenes\logo_size.png" />
-    <Content Include="Sources\Imagenes\logo_size_invert.jpg" />
     <Content Include="Sources\Imagenes\Mime Blank.ico" />
     <Content Include="Sources\Imagenes\Mono Pen.ico" />
     <Content Include="Sources\Imagenes\Mono Pen2.ico" />
