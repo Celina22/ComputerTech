@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ComputerTech.BugsExtendidoDataSet" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAQCoIAAwAoQINERAAAYAACyA0KQBiQAQBAgUFA5hA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Program" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BugsExtendidoDataSetTableAdapters.BarriosTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BugsExtendidoDataSetTableAdapters.ClientesTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BugsExtendidoDataSetTableAdapters.ContactosTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BugsExtendidoDataSetTableAdapters.FacturasTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BugsExtendidoDataSetTableAdapters.FacturasDetalleTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BugsExtendidoDataSetTableAdapters.PerfilesTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BugsExtendidoDataSetTableAdapters.ProductosTableAdapter" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BugsExtendidoDataSetTableAdapters.ProyectosTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BugsExtendidoDataSetTableAdapters.UsuariosTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BugsExtendidoDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAgACAQBIBABAMJACAANCkgAgAKgAAABAQQEgAARAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BusinessLayer.BarrioService" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACEAIAAAAAACAAAQAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\BarrioService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BusinessLayer.ClienteService" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAACAGAAAAAQACAAAgAACAAAAAAgAAA=</HashCode>
+      <FileName>BusinessLayer\ClienteService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BusinessLayer.ContactoService" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAQAAAIQAABAAAABAAAAEA=</HashCode>
+      <FileName>BusinessLayer\ContactoService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BusinessLayer.DetalleFacturaService" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\DetalleFacturaService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BusinessLayer.FacturaService" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAgAAAAACAAAAAAAAEAAAAAAAgIAAAAAAAAAIAA=</HashCode>
+      <FileName>BusinessLayer\FacturaService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BusinessLayer.PerfilService" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>BusinessLayer\PerfilService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BusinessLayer.ProductoService" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAACAAAAAAEEAQAAAAAABAAADIAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\ProductoService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BusinessLayer.ProyectoService" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAABAAQAAAAAgABAAEAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\ProyectoService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.BusinessLayer.UsuarioService" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAgAAAAABAAICAQAQAQAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLayer\UsuarioService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.DataAccessLayer.BarrioDao" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAgAAAEAAAAAAAACAAAAAABAAAAAAxAAAAAAAAA=</HashCode>
+      <FileName>DataAccessLayer\BarriosDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.DataAccessLayer.ClienteDao" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAARAAAAAAIAACAAAAAAAAAAAAAgAACiAABAAgIAA=</HashCode>
+      <FileName>DataAccessLayer\ClienteDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.DataAccessLayer.ContactoDao" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIQAABAgEAAAAAAEQ=</HashCode>
+      <FileName>DataAccessLayer\ContactoDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.DataAccessLayer.DetalleFacturaDao" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACQAIAAAA=</HashCode>
+      <FileName>DataAccessLayer\DetalleFacturaDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.DataAccessLayer.FacturaDao" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAgAAAAACAAAAAAAAEAAAAAACAIABhAgEAAAAAA=</HashCode>
+      <FileName>DataAccessLayer\FacturaDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.DataAccessLayer.PerfilDao" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgABAAAAAAA=</HashCode>
+      <FileName>DataAccessLayer\PerfilDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.DataAccessLayer.ProductoDao" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAACAAAAAAEEAAAAAAAABAAgCICAAAQAA=</HashCode>
+      <FileName>DataAccessLayer\ProductoDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.DataAccessLayer.ProyectoDao" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAQIAAAAgABAAEAQAAAAAAAAAhCAAAAAAAA=</HashCode>
+      <FileName>DataAccessLayer\ProyectoDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.DataAccessLayer.UsuarioDao" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAgAAAAAAAAACAQAAAAAACAAAAAEgAAAACACAA=</HashCode>
+      <FileName>DataAccessLayer\UsuarioDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataManager" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAFABIAABIAACAAAAAAAABABABAAAgAAAAACAAAA=</HashCode>
+      <FileName>DataAccessLayer\DataManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Entities.Barrio" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAICEAACAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Barrio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Entities.Cliente" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACQAAAAkAAABAEAAQQAAAEQAAAAEAAAAEAAEABAEA=</HashCode>
+      <FileName>Entities\Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Entities.Contacto" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAAACkAIAAgACAAAAAAAAAAAAAAgAAAAI=</HashCode>
+      <FileName>Entities\Contacto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Entities.DetalleFactura" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEEAABAAAAAQAAAAAgQgAAAEMAAAAAAAAgAAAA=</HashCode>
+      <FileName>Entities\DetalleFactura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Entities.Factura" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAQAAAAEgAACAAAkAgAEBQAABAEgAAAAAAAA=</HashCode>
+      <FileName>Entities\Factura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Entities.Perfil" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Entities\Perfil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Entities.Producto" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACEAAAAgACAAAAAgAACAAAAAgAAAAA=</HashCode>
+      <FileName>Entities\Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Entities.Proyecto" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAICCAAABAgAAAQAEEAAABBAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Entities\Proyecto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Entities.Usuario" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAAAAAEAQAAAAAAAAAAAAACAIAAAAAAAAg=</HashCode>
+      <FileName>Entities\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.GUILayer.frmABMBarrios" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAgAoAwEACDCghAGEcCAAACiAACIBIAJAAAEAAABIAQ=</HashCode>
+      <FileName>GUILayer\frmABMBarrios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.GUILayer.frmABMClientes" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASQmGSSAADACjJQFAIiChQGCCADAAMADRBEAoJgAIkQ=</HashCode>
+      <FileName>GUILayer\frmABMClientes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.GUILayer.frmABMContactos" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgGACBAGSSDJCkAIiCJAGCCCBAAMAjAlAIAIABIgY=</HashCode>
+      <FileName>GUILayer\frmABMContactos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.GUILayer.frmABMProducto" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGBAgCCCCjJCEAIiChAGCCCBAAMBDADAAAAAAMAQ=</HashCode>
+      <FileName>GUILayer\frmABMProducto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.GUILayer.frmABMProyecto" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACGCQBACBCjNIEAJmCDAGCSADEAMADoDAAAAIBMmQ=</HashCode>
+      <FileName>GUILayer\frmABMProyecto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.GUILayer.frmABMUsuario" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAGKABgCBCjZgEgImCLBGCCUDAAMADChCAAAAAYAQ=</HashCode>
+      <FileName>GUILayer\frmABMUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.GUILayer.frmFactura" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARRmHATgFCCCDAAgoAeBBgECaE7QkMACMCHAAgCBI5Q=</HashCode>
+      <FileName>GUILayer\frmFactura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.GUILayer.frmLogin" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAIAAIACAABQAAZACAiAADIQAAAUADQEAAAAAAACA=</HashCode>
+      <FileName>GUILayer\frmLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.GUILayer.frmPrincipal" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EkEBYEQAAKAAZIAwQAyBAGCCgAIAAACCAwEgACTJEIE=</HashCode>
+      <FileName>GUILayer\frmPrincipal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Properties.Resources" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAiAAAAAAAAAAABEAAEgQQIAAAAAAAQEAAgAYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Properties.Settings" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Reportes.frmEstadisticaGraficoCliente" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAACCACAAAAAACABAACgAEAAIgEAAAAAAAAAAA=</HashCode>
+      <FileName>Reportes\frmEstadisticaGraficoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Reportes.frmEstadisticaGraficoFactura" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAAAACCACAAAgHACABAACAgAAAIgABgAAAAAAAEA=</HashCode>
+      <FileName>Reportes\frmEstadisticaGraficoFactura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Reportes.frmEstadisticaGraficoProducto" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAAACCACAAAABACAAAACAgAAAIgCACCAAAAAAEE=</HashCode>
+      <FileName>Reportes\frmEstadisticaGraficoProducto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Reportes.frmEstadisticaGraficoProyecto" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAACCAGAAQAAACAAAACQgAAAIgCAAAAAAAAAEA=</HashCode>
+      <FileName>Reportes\frmEstadisticaGraficoProyecto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Reportes.frmReporteListadoCliente" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAACDACgAAGAACAgAACAgCAAIgCAAAABAAAAEA=</HashCode>
+      <FileName>Reportes\frmReporteListadoCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Reportes.frmReporteListadoFactura" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAGCAKAAACBACABAACAkGAAAgAAAAAAAAQAEA=</HashCode>
+      <FileName>Reportes\frmReporteListadoFactura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Reportes.frmReporteListadoProducto" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAACACCCCAAAAAACAQAASAiCgAAgAACAAAAAAAEA=</HashCode>
+      <FileName>Reportes\frmReporteListadoProducto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Reportes.frmReporteListadoProyectos" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAIACKACAAIAIBCACAgCQgCEAIiAoCAEAAIBEkA=</HashCode>
+      <FileName>Reportes\frmReporteListadoProyectos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComputerTech.Sources.TestColorTable" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACCAAEAACAAAAQADABAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Sources\TestColorTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SqlServerTypes.Utilities" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>SqlServerTypes\Loader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
