@@ -64,6 +64,7 @@
             this.txtNumeroFactura = new System.Windows.Forms.TextBox();
             this.cboCliente = new System.Windows.Forms.ComboBox();
             this.txtPuntoDeVenta = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.gbxDetalles.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -353,10 +354,10 @@
             this.lblProporcion.BackColor = System.Drawing.Color.Gainsboro;
             this.lblProporcion.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold);
             this.lblProporcion.ForeColor = System.Drawing.Color.White;
-            this.lblProporcion.Location = new System.Drawing.Point(468, 98);
+            this.lblProporcion.Location = new System.Drawing.Point(437, 98);
             this.lblProporcion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblProporcion.Name = "lblProporcion";
-            this.lblProporcion.Size = new System.Drawing.Size(97, 28);
+            this.lblProporcion.Size = new System.Drawing.Size(128, 28);
             this.lblProporcion.TabIndex = 7;
             this.lblProporcion.Text = "Horas:";
             this.lblProporcion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -541,6 +542,19 @@
             this.txtPuntoDeVenta.TabIndex = 16;
             this.txtPuntoDeVenta.TextChanged += new System.EventHandler(this.txtPuntoDeVenta_TextChanged_1);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(241, 68);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(80, 36);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Tipo:";
+            // 
             // frmFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -548,6 +562,7 @@
             this.BackColor = System.Drawing.Color.DarkMagenta;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1283, 777);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPuntoDeVenta);
             this.Controls.Add(this.cboCliente);
             this.Controls.Add(this.txtNumeroFactura);
@@ -612,5 +627,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn subtotal;
         private System.Windows.Forms.DataGridViewCheckBoxColumn esProducto;
         private System.Windows.Forms.TextBox txtPuntoDeVenta;
+        private System.Windows.Forms.Label label1;
     }
 }
