@@ -333,5 +333,20 @@ namespace ComputerTech.GUILayer
         {
 
         }
+
+        private void cboCliente_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNumeroFactura_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblNumeroFactura_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

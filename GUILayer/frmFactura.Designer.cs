@@ -109,6 +109,7 @@
             this.lblNumeroFactura.Size = new System.Drawing.Size(181, 29);
             this.lblNumeroFactura.TabIndex = 2;
             this.lblNumeroFactura.Text = "Número Factura:";
+            this.lblNumeroFactura.Click += new System.EventHandler(this.lblNumeroFactura_Click);
             // 
             // lblClientes
             // 
@@ -519,6 +520,7 @@
             this.txtNumeroFactura.Name = "txtNumeroFactura";
             this.txtNumeroFactura.Size = new System.Drawing.Size(244, 36);
             this.txtNumeroFactura.TabIndex = 13;
+            this.txtNumeroFactura.TextChanged += new System.EventHandler(this.txtNumeroFactura_TextChanged);
             this.txtNumeroFactura.Leave += new System.EventHandler(this.txtNumeroFactura_Leave);
             // 
             // cboCliente
@@ -533,6 +535,7 @@
             this.cboCliente.Name = "cboCliente";
             this.cboCliente.Size = new System.Drawing.Size(591, 37);
             this.cboCliente.TabIndex = 15;
+            this.cboCliente.SelectedIndexChanged += new System.EventHandler(this.cboCliente_SelectedIndexChanged);
             // 
             // txtPuntoDeVenta
             // 
@@ -551,7 +554,7 @@
             this.label1.Location = new System.Drawing.Point(241, 68);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 36);
+            this.label1.Size = new System.Drawing.Size(64, 29);
             this.label1.TabIndex = 17;
             this.label1.Text = "Tipo:";
             // 
