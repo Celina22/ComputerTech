@@ -453,7 +453,7 @@
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.btnGuardar.Image = global::ComputerTech.Properties.Resources.firewallcheck2;
-            this.btnGuardar.Location = new System.Drawing.Point(597, 30);
+            this.btnGuardar.Location = new System.Drawing.Point(620, 34);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(67, 62);

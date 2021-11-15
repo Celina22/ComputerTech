@@ -156,5 +156,14 @@ namespace ComputerTech.GUILayer
         {
 
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+          
+            {
+                facturaNumero nuevoReporteFactura = new facturaNumero();
+                nuevoReporteFactura.ShowDialog();
+            }
+        }
     }
 }

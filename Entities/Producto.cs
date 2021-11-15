@@ -1,6 +1,6 @@
 ﻿namespace ComputerTech.Entities
 {
-    class Producto
+    public class Producto
     {
         private int id_producto;
         private string nombre;

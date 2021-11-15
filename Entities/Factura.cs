@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ComputerTech.Entities
 {
-    class Factura
+    public class Factura
     {
         private int id_factura;
         private string numero_factura;

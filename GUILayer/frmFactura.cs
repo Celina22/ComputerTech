@@ -1,5 +1,6 @@
 ﻿using ComputerTech.BusinessLayer;
 using ComputerTech.Entities;
+using ComputerTech.Reportes;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -188,7 +189,7 @@ namespace ComputerTech.GUILayer
                     if ((bool)dgvDetalles.Rows[i].Cells["esProducto"].Value)
                         detalle.Producto = oProductoService.recuperarProducto(dgvDetalles.Rows[i].Cells["id"].Value.ToString());
                     else
-                        detalle.Proyecto = oProyectoService.recuperarProyecto(dgvDetalles.Rows[i].Cells["id"].Value.ToString());
+                    detalle.Proyecto = oProyectoService.recuperarProyecto(dgvDetalles.Rows[i].Cells["id"].Value.ToString());
                     detalle.Precio = Convert.ToDouble(dgvDetalles.Rows[i].Cells["precio"].Value);
                     detalle.Cantidad = Convert.ToInt32(dgvDetalles.Rows[i].Cells["cantidad"].Value);
                     factura.Detalles.Add(detalle);
@@ -197,11 +198,21 @@ namespace ComputerTech.GUILayer
                 factura.Cliente = oClienteService.recuperarCliente(cboCliente.SelectedValue.ToString());
                 factura.Fecha = dtpFechaFactura.Value;
                 factura.Usuario_creador = usuarioActual;
-                factura.Total = Convert.ToSingle(txtTotal.Text);
+                factura.Total = float.Parse(txtTotal.Text);
                 string resultado = oFacturaService.CrearFactura(factura);
+
+                factura.Numero_factura = resultado;
+
+                
+
                 if (resultado.Length > 0)
                 {
-                    MessageBox.Show("La factura se ha registrado con éxito. Número de factura:" + resultado, "Registrar factura", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show("La factura se ha registrado con éxito. Número de factura:" + resultado, "Registrar factura", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show(factura.Detalles.ToString());
+                    //MessageBox.Show(factura.ToString());
+                    facturaNumero a = new facturaNumero(factura);
+                    a.Show();
+                    
                     dgvDetalles.Rows.Clear();
                 }
                 else
@@ -348,5 +359,7 @@ namespace ComputerTech.GUILayer
         {
 
         }
+
+      
     }
 }

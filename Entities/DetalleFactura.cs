@@ -1,6 +1,6 @@
 ﻿namespace ComputerTech.Entities
 {
-    class DetalleFactura
+    public class DetalleFactura
     {
         private int id_detalle_factura;
         //private int id_factura;

@@ -2,7 +2,7 @@
 
 namespace ComputerTech.Entities
 {
-    class Cliente
+    public class Cliente
     {
         private int id_cliente;
         private long cuit;
